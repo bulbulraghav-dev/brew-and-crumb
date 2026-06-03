@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Brew &amp; Crumb — Coffee &amp; Bakery</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="landing.css" />
+</head>
+<body>
+
+  <header class="header">
+    <div class="container header__inner">
+      <a href="#" class="logo">Brew <span>&amp;</span> Crumb</a>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="#menu" class="nav__link">Menu</a>
+        <a href="#contact" class="nav__link">Contact</a>
+        <a href="#contact" class="nav__cta">Order now</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <p class="hero__badge">Fresh daily · Since 2020</p>
+        <h1 class="hero__title">Coffee, pastries &amp; warm mornings</h1>
+        <p class="hero__text">
+          Hand-roasted beans and oven-fresh bakes in a cozy corner of your city.
+          Stop by for a latte or order ahead for pickup.
+        </p>
+        <div class="hero__actions">
+          <a href="#menu" class="btn btn--primary">View menu</a>
+          <a href="#contact" class="btn btn--outline">Get in touch</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="menu">
+      <div class="container">
+        <header class="section__head">
+          <p class="section__label">Our favorites</p>
+          <h2 class="section__title">Menu &amp; services</h2>
+          <p class="section__desc">Signature drinks and bakes made with local ingredients.</p>
+        </header>
+
+        <div class="menu-grid">
+          <article class="card">
+            <div class="card__icon" aria-hidden="true">☕</div>
+            <h3 class="card__title">Espresso &amp; lattes</h3>
+            <p class="card__price">From ₹120</p>
+            <p class="card__text">Single-origin espresso, cappuccino, and seasonal flavored lattes.</p>
+          </article>
+
+          <article class="card">
+            <div class="card__icon" aria-hidden="true">🥐</div>
+            <h3 class="card__title">Fresh pastries</h3>
+            <p class="card__price">From ₹80</p>
+            <p class="card__text">Butter croissants, cinnamon rolls, and daily muffin specials.</p>
+          </article>
+
+          <article class="card">
+            <div class="card__icon" aria-hidden="true">🍰</div>
+            <h3 class="card__title">Cakes &amp; desserts</h3>
+            <p class="card__price">From ₹150</p>
+            <p class="card__text">Slice cakes, brownies, and custom orders for celebrations.</p>
+          </article>
+
+          <article class="card">
+            <div class="card__icon" aria-hidden="true">🥪</div>
+            <h3 class="card__title">Light bites</h3>
+            <p class="card__price">From ₹100</p>
+            <p class="card__text">Sandwiches, salads, and brunch plates served till 2 PM.</p>
+          </article>
+
+          <article class="card">
+            <div class="card__icon" aria-hidden="true">🫖</div>
+            <h3 class="card__title">Tea &amp; cold brew</h3>
+            <p class="card__price">From ₹90</p>
+            <p class="card__text">Masala chai, iced coffee, and house cold brew on tap.</p>
+          </article>
+
+          <article class="card">
+            <div class="card__icon" aria-hidden="true">📦</div>
+            <h3 class="card__title">Catering &amp; pickup</h3>
+            <p class="card__price">Custom quote</p>
+            <p class="card__text">Office boxes, party trays, and bulk orders — book 48 hours ahead.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container">
+        <header class="section__head">
+          <p class="section__label">Say hello</p>
+          <h2 class="section__title">Contact us</h2>
+          <p class="section__desc">Questions, reservations, or custom orders — we reply within a day.</p>
+        </header>
+
+        <div class="contact-wrap">
+          <form class="form" action="#" method="post">
+            <div class="form__group">
+              <label class="form__label" for="name">Your name</label>
+              <input class="form__input" type="text" id="name" name="name" placeholder="Bulbul" required />
+            </div>
+            <div class="form__group">
+              <label class="form__label" for="email">Email</label>
+              <input class="form__input" type="email" id="email" name="email" placeholder="you@example.com" required />
+            </div>
+            <div class="form__group">
+              <label class="form__label" for="message">Message</label>
+              <textarea class="form__textarea" id="message" name="message" placeholder="I'd like to order a cake for Saturday..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn--primary">Send message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026 Brew &amp; Crumb · Open 7 AM – 8 PM · Main Street</p>
+    </div>
+  </footer>
+
+</body>
+</html>
